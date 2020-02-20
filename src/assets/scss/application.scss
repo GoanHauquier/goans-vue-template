@@ -1,0 +1,67 @@
+//
+//    MAIN SASS FILE
+//
+//    Import other Sass files here
+@import 'variables.scss'; // variables first ;-)
+@import 'helpers.scss';
+@import 'animations.scss';
+@import 'reset.css';
+@import '../../../node_modules/bootstrap/scss/bootstrap-grid.scss';
+//
+//    Import Fonts here
+ @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+//
+//    Header & Footer stuff... pretty important...
+.wrapper {
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.top-wrapper {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    overflow: hidden;
+}
+//    Code goes here
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1em;
+    line-height: 150%;
+}
+
+p strong {
+    font-weight: bold;
+}

@@ -1,0 +1,15 @@
+//
+//    ANIMATIONS SASS FILE
+//
+//    Create your animations here.
+//
+//    Code goes here
+
+.scale-up {
+    transition: transform 0.2s ease;
+
+    &:hover {
+        transform: scale(1.05);
+        transition: transform 0.2s ease;
+    }
+}

@@ -1,0 +1,80 @@
+//
+//    ANIMATIONS SASS FILE
+//
+//    Create your animations here.
+//
+//    Code goes here
+
+// Text align
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+// Margin
+.margin-15b {
+    margin-bottom: 15px;
+}
+
+.margin-30b {
+    margin-bottom: 30px;
+}
+
+.margin-45b {
+    margin-bottom: 45px;
+}
+
+.margin-60b {
+    margin-bottom: 60px;
+}
+
+.margin-15t {
+    margin-top: 15px;
+}
+
+.margin-30t {
+    margin-top: 30px;
+}
+
+.margin-45t {
+    margin-top: 45px;
+}
+
+.margin-60t {
+    margin-top: 60px;
+}
+
+// Colors
+
+.white {
+    color: $white;
+}
+
+.gray {
+    color: $gray;
+}
+
+.black {
+    color: $black;
+}
+
+// Background colors
+
+.bg-white {
+    background-color: $white;
+}
+
+.bg-gray {
+    background-color: $gray;
+}
+
+.bg-black {
+    background-color: $black;
+}
